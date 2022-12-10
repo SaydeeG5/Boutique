@@ -1,0 +1,9 @@
+.quantity button {
+    margin: 0 10px;
+}
+
+.quantity label {
+    display: inline-block;
+    width: 15px; 
+    font-weight: bold;
+}

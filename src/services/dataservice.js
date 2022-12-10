@@ -73,3 +73,12 @@ const catalog = [
     image: "sherpaBoots.png",
   },
 ];
+
+class DataService {
+  getCatalog() {
+    //To Do : getCatalog from server
+    return catalog;
+  }
+}
+
+export default DataService;

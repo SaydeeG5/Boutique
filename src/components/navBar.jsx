@@ -1,11 +1,13 @@
 import "./navBar.css";
 function NavBar() {
     return(
+        
         <div className= "navBar">
-            <h5>Menu will be here!</h5>
-            <button>Test </button>
-            <label> Test  label</label>
+            <h5>Create your own style!</h5>
+            <button>More Styles</button>
+            {/* <label> Test  label</label> */}
         </div>
+        
     );
 }
 

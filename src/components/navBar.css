@@ -1,9 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Corinthia:wght@400;700&family=Dancing+Script:wght@400;600;700&family=Indie+Flower&family=Kalam:wght@400;700&family=La+Belle+Aurore&family=Lato:wght@400;700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;1,300&family=Pacifico&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Sacramento&family=Source+Sans+Pro:wght@200;400&display=swap');
+
 .navBar {
-    background-color: lightgrey;
+    /* background-color: #495579;  */
+    background-image: linear-gradient(to bottom right,  #4c8b62, #303b59);
+
+
     padding: 10px 0;
+    margin: 0;
     
 }
 
 .navBar h5 {
     margin: 0;
+    font-family: Sacramento;
+    font-size: 50px;
+    color: #FFFBEB;
+}
+
+.navBar button { 
+    margin-top: 10px;
+    font-family: Raleway;
+    padding: 8px;
+    color: #FFFBEB;
+    font-weight: 600;
+    background-color: #439A97;
+    border: #439A97;
+    border-radius: 10px;
+
 }

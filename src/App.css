@@ -45,6 +45,7 @@
 }
 
 .App {
-  background-image: url("../public/images/Boutique.png"); 
+  background-image: url("../public/images/Boutique-2.png"); 
+  background-size: cover;
 }
 

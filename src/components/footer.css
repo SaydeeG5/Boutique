@@ -1,7 +1,6 @@
 .footer {
-    background-image: url("/public/images/boutiqueHeader.png"); 
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     padding-top: 7px;
     padding-bottom: 7px;
     color: #fff;

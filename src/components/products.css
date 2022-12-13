@@ -6,7 +6,6 @@
     display: inline-block;
     margin-right: 15px;
     background-color: #EAEAEA;
-
 }
 
 .product:hover {
@@ -19,13 +18,14 @@
 }
 
 .product h5 {
-    font-family: Raleway;
-    color: #3C4048;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#393E46;
+    margin-top: 10px;
 }
 
 .product label {
-    font-family: Montserrat;
-    color: #3C4048;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#393E46;
 }
 
 .product button {
@@ -33,11 +33,14 @@
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 5px;
+    background-color: #2934621c;
+    color:#393E46;
 }
 
 .product img {
     width: 200px;
     height: 300px;
+    border-radius: 5px;
     cursor: pointer;
 }
 

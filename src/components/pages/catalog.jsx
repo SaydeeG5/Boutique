@@ -17,8 +17,9 @@ function Catalog () {
 
     return (
         <div className="catalog">
-            <h3>This season in Boutique...</h3>
-            <h5> {products.length} new arrivals for you! </h5>
+            <img src="https://media.giphy.com/media/jMYOXcimgnTxOeseD0/giphy.gif"alt="Sparkling Christmas Tree"></img><br/>
+            <h3>Shine bright this season, </h3>
+            <h5>with {products.length} new arrivals for you! </h5>
 
             <div className="products">
                 {/* { products.map( product => <Product title={product.title}/>)} */}

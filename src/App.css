@@ -40,9 +40,11 @@
 }
 
 .page-content {
-  min-height: calc(100vh - 142px);  
+  min-height: calc(100vh - 150px);
+  
 }
 
 .App {
-  background-color: #EAEAEA;
+  background-image: url("../public/images/Boutique.png"); 
 }
+

@@ -2,29 +2,41 @@
 
 .navBar {
     /* background-color: #495579;  */
-    background-image: linear-gradient(to bottom right,  #4c8b62, #303b59);
-
-
-    padding: 10px 0;
+    /* background-image: linear-gradient(to bottom right,  #4c8b62, #303b59); */
+    /* background-image: url("../public/images/head.png"); */
+    /* background-image: url("/public/images/boutiqueHeader.png"); */
+    padding-top: 0;
     margin: 0;
-    
 }
+
+/* .navBar .head-png{
+    background-image: url("/public/images/boutiqueHeader.png");
+} */
 
 .navBar h5 {
     margin: 0;
+    font-family: Monserrat;
+    font-size: 100px;
+    color: #FFFBEB;
+    letter-spacing: 5px;
+}
+
+.navBar p {
     font-family: Sacramento;
     font-size: 50px;
-    color: #FFFBEB;
+    color:#FFFBEB;
+    margin-top: -15px;
+    letter-spacing: 5px;
 }
 
 .navBar button { 
-    margin-top: 10px;
     font-family: Raleway;
-    padding: 8px;
+    font-size: 15px;
+    padding: 10px;
     color: #FFFBEB;
     font-weight: 600;
-    background-color: #439A97;
+    background-image: url("/public/images/boutiqueHeader.png"); 
     border: #439A97;
     border-radius: 10px;
-
+    cursor: pointer;
 }

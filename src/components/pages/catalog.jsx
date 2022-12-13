@@ -21,7 +21,8 @@ function Catalog () {
             <h5> {products.length} new arrivals for you! </h5>
 
             <div className="products">
-                { products.map( product => <Product title={product.title}/>)}
+                {/* { products.map( product => <Product title={product.title}/>)} */}
+                { products.map( product => <Product data={product}/>)}
             </div>
         </div>
     );

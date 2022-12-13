@@ -10,8 +10,8 @@
 }
 
 .product:hover {
-  border-color:  #3C4048;
-  box-shadow: 1px 1px 6px 3px rgb(144, 144, 144);
+    border-color:  #3C4048;
+    box-shadow: 1px 1px 6px 3px rgb(144, 144, 144);
 }
 
 .product img {
@@ -22,7 +22,8 @@
     font-family: Raleway;
     color: #3C4048;
 }
-.product p {
+
+.product label {
     font-family: Montserrat;
     color: #3C4048;
 }
@@ -33,3 +34,16 @@
     padding: 5px;
     border-radius: 5px;
 }
+
+.product img {
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.product .priceTotal {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+

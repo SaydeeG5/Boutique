@@ -3,23 +3,18 @@
 .catalog h3 {
     font-size: 20px;
     font-family: Monserrat;
-    color: #293462;
+    color: #fff;
     letter-spacing: .7px;
     display: inline-block;
-    background-color: #00F5FF;
+    background-color: #00f7ff4a;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
 }
 
-/* .catalog h5 {
-    font-size: 18px;
-    font-family: Montserrat;
-    color: #fff;
-    font-size: 20px;
-    margin-top: -20px;
-    margin-bottom: 50px;
-} */
+.catalog .products { 
+    margin-top: 11px; 
+}
 
 
 

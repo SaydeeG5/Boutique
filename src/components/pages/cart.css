@@ -1,37 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Corinthia:wght@400;700&family=Dancing+Script:wght@400;600;700&family=Indie+Flower&family=Kalam:wght@400;700&family=La+Belle+Aurore&family=Lato:wght@400;700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;1,300&family=Pacifico&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Sacramento&family=Source+Sans+Pro:wght@200;400&display=swap');
 
-.navbar {
-    padding-top: 0;
-    margin: 0;
-    background: #439a9732;
-}
-
-.navbar a {
-    color: #FFFBEB;
-}
-
-.navbar a:hover {
-    color:aqua;
-}
-
-.navbar .btn:hover{
-    color:aqua;
-}
-
-.navbar .navbar-brand {
+.cart h1 {
+    margin-top: 25px;
     font-family: Sacramento;
     font-size: 50px;
+    color: #fff;
 }
 
-.navbar button { 
-    font-family: Raleway;
+.cart p {
+    font-family: Montserrat;
     font-size: 15px;
-    padding: 10px;
-    color: #FFFBEB;
-    font-weight: 600;
-    background-image: url("/public/images/boutiqueHeader.png"); 
-    border: #439A97;
-    border-radius: 10px;
-    cursor: pointer;
+    color: #fff;
 }
-

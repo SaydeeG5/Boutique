@@ -1,5 +1,6 @@
 
 import { useState } from 'react';
+import "./contact.css";
 
 function Contact() {
 
@@ -7,31 +8,31 @@ function Contact() {
 
     function getEmailSection () {
         if (isEmailVisible) {
-            return <h3>saydeeguevarra@gmail.com</h3>;
+            return <h3 className="contactEmail">saydeeguevarra@gmail.com</h3>;
         }
         else {
-            return <label> Click the button to see the email </label>;
+            return <label className="contactLabel"> Click for email </label>;
         }
     }
-    function showEmail (){
-        setIsEmailVisible (true);
-    
+
+    function Email (){
+        setIsEmailVisible (!isEmailVisible);
         }
 
-    function hideEmail (){
-        setIsEmailVisible (false);
+    // function hideEmail (){
+    //     setIsEmailVisible (false);
         
-        }
+    //     }
     
 
     return (
         <div className="contact">
             <h1>Saydee Guevarra</h1>
 
-            {getEmailSection()} 
+            <button onClick={Email} type="button" className="btn btn-info">Email</button>
             <br />
-            <button onClick={showEmail} type="button" className="btn btn-info">Show Email</button>
-            <button onClick={hideEmail} type="button" className="btn btn-info">Hide Email</button>
+            {getEmailSection()} 
+            {/* <button onClick={hideEmail} type="button" className="btn btn-info">Hide Email</button> */}
         </div>
     );
 }

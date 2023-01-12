@@ -17,10 +17,9 @@ function Catalog () {
 
     return (
         <div className="catalog">
-                {/* <img src="https://media.giphy.com/media/jMYOXcimgnTxOeseD0/giphy.gif"alt="Sparkling Christmas Tree"></img><br/> */}
-                <h3>Show off your style, with {products.length} new arrivals for you!</h3>
             
-                {/* <h5>with {products.length} new arrivals for you! </h5> */}
+                <h3>Show off your style, with {products.length} new arrivals for you!</h3>
+
 
             <div className="products">
                 {/* { products.map( product => <Product title={product.title}/>)} */}

@@ -1,14 +1,23 @@
 import "./products.css";
 import QuantityPicker from './quantity';
-import {useState} from "react";
+import {useState,useContext} from "react";
+import DataContext from "../store/dataContext";
 
 function Product (props) { 
     const [quantity, setQuantity] = useState(1);
+
+    let addProductToCart = useContext(DataContext).addProductToCart;
         
     function handleQtyChange(qty) {
         console.log ("quantity changed", qty);
         setQuantity(qty);
     }
+
+    function addToCart() {
+        console.log ("add to cart",props.data);
+        addProductToCart(); // call the global function  
+    }
+    
     return (
         <div className="product">
 
@@ -19,13 +28,12 @@ function Product (props) {
 
             
             <div className="priceTotal">
-            {/* <label>Total: ${getTotal()}</label> */}
-            <label>Price: ${props.data.price.toFixed(2)}</label>
-            <label>Total: ${(props.data.price* quantity).toFixed(2)}</label>
+                <label>Price: ${props.data.price.toFixed(2)}</label>
+                <label>Total: ${(props.data.price* quantity).toFixed(2)}</label>
             </div>
 
             <QuantityPicker onChange={handleQtyChange}/>
-            <button>Add</button>
+            <button onClick={addToCart}>Add</button>
         </div>
     )
 }

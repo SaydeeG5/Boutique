@@ -15,7 +15,7 @@ function Product (props) {
 
     function addToCart() {
         console.log ("add to cart",props.data);
-        addProductToCart(); // call the global function  
+        addProductToCart(props.data); // call the global function  
     }
     
     return (

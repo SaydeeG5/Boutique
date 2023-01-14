@@ -5,9 +5,19 @@ function GlobalData (props) {
     const [cart, setCart]= useState([]);
     const [fakeUser, setFakeUser]= useState({name:"Saydee"});
 
-    function addProductToCart(){
-        console.log("Global fn called");
+    function addProductToCart(product){
+
+        // modify an state varibale with ofject {} or array []
+        
+        // create a copy
+        let copy = [...cart];
+        //modify the copy
+        copy.push(product);
+        //set the copy (replace the old one with the copy)
+        setCart(copy);
+
     }
+
 
     function removeProductFromCart(){}
 

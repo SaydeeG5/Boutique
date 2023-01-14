@@ -1,14 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Corinthia:wght@400;700&family=Dancing+Script:wght@400;600;700&family=Indie+Flower&family=Kalam:wght@400;700&family=La+Belle+Aurore&family=Lato:wght@400;700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;1,300&family=Pacifico&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Sacramento&family=Source+Sans+Pro:wght@200;400&display=swap');
 
+.cart {
+    color:#fff;
+}
+
+.cart img{
+    width: 150px;
+    length: 150px;
+    margin-top: 10px;
+}
+
+.cart .cartInfo {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+}
+
+.cartInfo h6 {
+    flex: 4;
+}
+
+.cartInfo label {
+    flex: 2;
+}
+
+.cartInfo button{
+    flex: 1;
+}
+
 .cart h1 {
     margin-top: 25px;
     font-family: Sacramento;
     font-size: 50px;
-    color: #fff;
 }
 
 .cart p {
     font-family: Montserrat;
     font-size: 15px;
+}
+
+.cart h3{
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+.cart button {
+    background-color: rgba(2, 123, 123, 0.766);
     color: #fff;
+    margin-bottom: 10px;
+    font-size: 10px;
+    
 }

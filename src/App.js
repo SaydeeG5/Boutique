@@ -1,11 +1,11 @@
 import "./App.css";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
-import Catalog from "./components/pages/catalog";
-import Home from "./components/pages/home";
-import Contact from "./components/pages/contact";
-import Cart from "./components/pages/cart";
-import Test from "./components/pages/test";
+import Catalog from "./pages/catalog";
+import Home from "./pages/home";
+import Contact from "./pages/contact";
+import Cart from "./pages/cart";
+import Test from "./pages/test";
 import GlobalData from "./store/globalData";
 
 import "bootstrap/dist/css/bootstrap.min.css";

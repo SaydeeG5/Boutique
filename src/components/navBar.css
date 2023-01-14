@@ -26,12 +26,17 @@
 .navbar button { 
     font-family: Raleway;
     font-size: 15px;
-    padding: 10px;
     color: #FFFBEB;
     font-weight: 600;
     background-image: url("/public/images/boutiqueHeader.png"); 
     border: #439A97;
     border-radius: 10px;
-    cursor: pointer;
+    
 }
 
+.d-flex {
+    color: #FFFBEB;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}

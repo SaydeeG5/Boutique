@@ -11,14 +11,26 @@
 
 .contactEmail {
     font-family: Merriweather;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.contact p {
+    margin-top: 15px;
+    font-family: Merriweather;
     letter-spacing: 1px;
     font-size: 20px;
 }
-
 .contact h1 {
     font-family: Sacramento;
-    font-size: 50px;
+    font-size: 75px;
     margin-top: 25px;
+}
+
+.contact h3 {
+    font-family: Sacramento;
+    font-size: 25px;
 }
 
 .contact button {

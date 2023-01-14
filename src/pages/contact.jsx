@@ -8,7 +8,7 @@ function Contact() {
 
     function getEmailSection () {
         if (isEmailVisible) {
-            return <h3 className="contactEmail">saydeeguevarra@gmail.com</h3>;
+            return <h2 className="contactEmail">saydeeguevarra@gmail.com</h2>;
         }
         else {
             return <label className="contactLabel"> Click for email </label>;
@@ -27,7 +27,8 @@ function Contact() {
 
     return (
         <div className="contact">
-            <h1>Saydee Guevarra</h1>
+            <h1>Boutique</h1>
+            <h3>by: Saydee Guevarra</h3>
 
             <button onClick={Email} type="button" className="btn btn-info">Email</button>
             <br />

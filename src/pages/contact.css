@@ -2,7 +2,7 @@
 
 
 .contact {
-    color:antiquewhite;
+    color:#fff;
 }
 
 .contactLabel {
@@ -35,4 +35,6 @@
 
 .contact button {
     font-family: Monserrat;
+    color:#fff;
+    background-color: rgba(2, 123, 123, 0.766);
 }

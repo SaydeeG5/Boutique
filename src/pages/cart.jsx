@@ -14,14 +14,23 @@ function Cart() {
             <div className="cartInfo">
                 {cart.map(product=>
                 (<div>
-                    <img src={"/images/"+product.image} alt=""></img>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src={"/images/"+product.image} alt=""></img>
+                            </div>
+                        <div class="col-sm">
+                            <h6 className="productTitle">{product.title}</h6>
+                        </div>
+                        <div class="col-sm">
+                            <label>{product.price}</label>
+                        </div>
+                        <div class="col-sm">
+                            <button type="button" class="btn btn-info">Delete</button>
+                        </div>
+                    </div>
+                </div>
 
-                    <h6>{product.title}</h6>
-
-                    <label>{product.price}</label>
-                    <br />
-
-                    <button type="button" class="btn btn-info">Delete</button>
                     
                 </div>)
                 )

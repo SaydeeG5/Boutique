@@ -8,6 +8,7 @@
     width: 150px;
     length: 150px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .cart .cartInfo {
@@ -15,21 +16,14 @@
     flex-direction: column;
     border: 1px solid #fff;
 }
+
 .cartInfo {
     display: inline-block;
 }
+
 .cartInfo h6 {
-    flex: 4;
-    margin-top: 5px;
-}
-
-.cartInfo label {
-    flex: 2;
-    margin-bottom: 5px;
-}
-
-.cartInfo button{
-    flex: 1;
+    font-weight: 600px;
+    font-size: 18px;
 }
 
 .cart h1 {
@@ -51,7 +45,13 @@
 .cart button {
     background-color: rgba(2, 123, 123, 0.766);
     color: #fff;
-    margin-bottom: 10px;
     font-size: 10px;
     
 }
+
+.col-sm {
+justify-self: center;
+justify-content: center;
+align-self: center;
+}
+

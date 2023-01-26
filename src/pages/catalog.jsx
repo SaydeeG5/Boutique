@@ -8,13 +8,16 @@ function Catalog () {
     //when the component loads we use "useEffect():" receives two parameters : arrow function and list of dependencies
 
     useEffect(() => {
+        loadData();
+    }, []);
+    
+    async function loadData(){
         console.log("catalog loaded");
         let service = new DataService();
-        let productList = service.getCatalog();
+        let productList = await service.getCatalog();
         setProducts(productList);
-        console.log(productList);
-        }, []);
-
+    }
+    
     return (
         <div className="catalog">
             
